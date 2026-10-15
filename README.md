@@ -1,24 +1,21 @@
-# LoRa-Based Health Monitoring Prototype
+#Energy Meter with Automatic Cutoff
 
-An Arduino Uno project that uses a pulse oximeter, DHT11 temperature sensor, GPS module, and emergency input button. A custom-designed PCB connects the components, and a LoRa module sends the collected data wirelessly.
+An Arduino Uno project that measures AC voltage and current using a ZMPT101B voltage sensor and ACS712 current sensor. A 16×2 LCD displays the readings, and a 5 V relay disconnects the load if the current exceeds a set limit.
 
-## Components
+#Components
 
 - Arduino Uno
-- LoRa module on a custom-designed PCB
-- Pulse oximeter
-- DHT11 temperature and humidity sensor
-- GPS module: NEO-6M 
-- RS-232 cable
-- Emergency input button
-
-## Project files
+- ZMPT101B AC voltage sensor
+- ACS712 current sensor
+- 5 V relay
+- 16×2 LCD display
+  
+#Project files
 
 - Source code
 - Project photo
+  
+#How it works
 
-## How it works
-
-The Arduino Uno reads data from the pulse oximeter and DHT11 sensor, obtains location data from the GPS module, and sends the information over LoRa. The emergency button provides an input for emergency use.
-
-This is a prototype project, not a certified medical or emergency-response device.
+The Arduino Uno reads the voltage and current sensor signals and displays the measurements on the LCD. When the measured current exceeds the configured limit, the Arduino activates the relay to disconnect the load.
+This is a prototype project, not a certified electrical protection device. Use properly rated components and take appropriate precautions when working with AC mains.
