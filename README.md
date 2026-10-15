@@ -13,9 +13,9 @@ An energy meter that measures AC voltage and current. If current exceeds the set
 ## Project files
 
 - Source code
-- Project photo: `IMG_0070.jpg`
+- Project photo: `IMG_0070.JPG`
 
-![Energy meter project](./IMG_0070.jpg)
+![Energy meter project](IMG_0070.JPG)
 
 ## How it works
 
