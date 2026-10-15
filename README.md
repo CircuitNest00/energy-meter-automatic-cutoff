@@ -1,21 +1,24 @@
-#Energy Meter with Automatic Cutoff
+# Energy Meter with Automatic High-Current Cutoff
 
-An Arduino Uno project that measures AC voltage and current using a ZMPT101B voltage sensor and ACS712 current sensor. A 16×2 LCD displays the readings, and a 5 V relay disconnects the load if the current exceeds a set limit.
+An energy meter that measures AC voltage and current. If current exceeds the set limit, a relay disconnects the load.
 
-#Components
+## Components
 
 - Arduino Uno
-- ZMPT101B AC voltage sensor
+- ZMPT101B voltage sensor
 - ACS712 current sensor
 - 5 V relay
 - 16×2 LCD display
-  
-#Project files
+
+## Project files
 
 - Source code
-- Project photo
-  
-#How it works
+- Project photo: `IMG_0070.jpg`
 
-The Arduino Uno reads the voltage and current sensor signals and displays the measurements on the LCD. When the measured current exceeds the configured limit, the Arduino activates the relay to disconnect the load.
-This is a prototype project, not a certified electrical protection device. Use properly rated components and take appropriate precautions when working with AC mains.
+![Energy meter project](IMG_0070.jpg)
+
+## How it works
+
+The sensors send voltage and current readings to the Arduino Uno, which displays them on the LCD. If the current goes above the configured limit, the relay disconnects the load.
+
+This is a prototype, not a certified electrical protection device. Use properly rated components and take care when working with AC mains.
