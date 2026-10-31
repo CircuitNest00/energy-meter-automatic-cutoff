@@ -29,7 +29,7 @@ The ZMPT101B and ACS712 send measurement signals to the Arduino Uno. The Arduino
 
 ## Circuit Diagram
 
-![Energy meter circuit diagram](IMG_0070.png)
+![Energy meter circuit diagram](circuit.png)
 
 ## Software and Tools
 
@@ -42,7 +42,7 @@ The Arduino IDE source code is included in this repository: [`pill.ino`](energym
 
 ## Project Photo
 
-![Smart Pill Box Project](IMG_0806.jpg)
+![Energy_Meter](IMG_0070.jpg)
 
 
 ## Results
