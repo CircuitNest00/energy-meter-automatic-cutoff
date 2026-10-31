@@ -42,7 +42,7 @@ The Arduino IDE source code is included in this repository: [`pill.ino`](energym
 
 ## Project Photo
 
-![Energy_Meter](IMG_0070.jpg)
+![Energy_Meter](IMG_0070.JPG)
 
 
 ## Results
