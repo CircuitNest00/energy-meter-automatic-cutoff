@@ -35,7 +35,15 @@ The ZMPT101B and ACS712 send measurement signals to the Arduino Uno. The Arduino
 
 - Programming language: Arduino C/C++
 - IDE: Arduino IDE
-- Hardware tools: [Add any tools you used, or remove this line]
+  
+## Source Code
+
+The Arduino IDE source code is included in this repository: [`pill.ino`](pill.ino).
+
+## Project Photo
+
+![Smart Pill Box Project](IMG_0806.jpg)
+
 
 ## Results
 
